@@ -1,0 +1,65 @@
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #dae8f1;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.containerSobre {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.containerContact {
+  color: black;
+  font-size: 15pt;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-top: 70px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .containerContact {
+    justify-content: flex-start;
+    margin-top: 20px;
+
+    div {
+      margin-top: 20px;
+    }
+  }
+}

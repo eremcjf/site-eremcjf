@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(/background-image.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #dae8f1;
+  height: 60px;
+  width: 100%;
+  border-bottom: 2px solid #266fac;
+  border-top: 2px solid #266fac;
+
+  .headImg {
+    .img {
+      padding: 5px;
+      margin-left: 40px;
+      float: left;
+      height: 50px;
+      width: 150px;
+      overflow: hidden;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+}
+
+.linksHeader {
+  text-decoration: none;
+}
+
+.menu-list {
+  padding: 21px;
+  color: #266fac;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.menu-list:hover {
+  background-color: white;
+  color: black;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.footer {
+  margin-top: 70px;
+  width: 100%;
+  height: 220px;
+  background-color: #dae8f1;
+  border-bottom: 2px solid #266fac;
+  border-top: 2px solid #266fac;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.endereco {
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+
+.contato {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+
+  img {
+    float: left;
+  }
+}
+
+.tel {
+  margin-top: 5px;
+}
+
+.email {
+  margin-top: 5px;
+}
+
+.mycontact {
+  text-decoration: none;
+  color: black;
+}
+
+.mycontact:hover {
+  color: #266fac;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 110px;
+  }
+
+  .headImg {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin-left: 0px;
+  }
+
+  .header {
+
+    ul {
+      justify-content: center;
+      margin-top: 13px;
+    }
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .menu-list {
+    padding: 5px;
+  }
+
+  #home {
+    display: none;
+  }
+
+  .footer {
+    height: 350px;
+    margin-top: 100px;
+  }
+
+  .copy {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .endereco {
+    float: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .contato {
+    margin-bottom: 50px;
+    width: 70%;
+    float: none;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .menu-list {
+    padding: 5px;
+    font-size: 9pt;
+  }
+}
+

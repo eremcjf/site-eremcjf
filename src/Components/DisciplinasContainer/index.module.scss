@@ -1,0 +1,66 @@
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #dae8f1;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.discContainer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  span {
+    color: #266fac;
+    cursor: pointer;
+  }
+}
+
+.bxDisc {
+  background-color: #266fac;
+  width: 140px;
+  padding: 30px 50px 30px 50px;
+  border: 2px solid #266fac;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.bxDisc:hover {
+  background-color: white;
+  color: #266fac;
+}
+
+.especContainer {
+  span {
+    color: #266fac;
+    cursor: pointer;
+  }
+}
+
+.especContainer span:hover {
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .bxDisc {
+    margin-left: 0px;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
